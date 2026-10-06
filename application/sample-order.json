@@ -1,0 +1,35 @@
+{
+  "customerId": { "S": "CUST-001" },
+  "orderId":    { "S": "ORD-2026-0001" },
+  "status":     { "S": "PENDING" },
+  "createdAt":  { "S": "2026-10-05T14:30:00Z" },
+  "total":      { "N": "239.89" },
+  "currency":   { "S": "USD" },
+  "items": {
+    "L": [
+      {
+        "M": {
+          "productId": { "N": "1" },
+          "name":      { "S": "Audífonos inalámbricos" },
+          "quantity":  { "N": "1" },
+          "price":     { "N": "149.90" }
+        }
+      },
+      {
+        "M": {
+          "productId": { "N": "2" },
+          "name":      { "S": "Teclado mecánico" },
+          "quantity":  { "N": "1" },
+          "price":     { "N": "89.99" }
+        }
+      }
+    ]
+  },
+  "shippingAddress": {
+    "M": {
+      "line1": { "S": "Calle 13 # 100-00" },
+      "city":  { "S": "Cali" },
+      "country": { "S": "CO" }
+    }
+  }
+}
